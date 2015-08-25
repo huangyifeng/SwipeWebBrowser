@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C43880B51B8CA57600F4FEBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C43880B41B8CA57600F4FEBF /* main.m */; };
+		C43880B81B8CA57600F4FEBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C43880B71B8CA57600F4FEBF /* AppDelegate.m */; };
+		C43880BB1B8CA57600F4FEBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C43880BA1B8CA57600F4FEBF /* ViewController.m */; };
+		C43880BE1B8CA57600F4FEBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43880BC1B8CA57600F4FEBF /* Main.storyboard */; };
+		C43880C01B8CA57600F4FEBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43880BF1B8CA57600F4FEBF /* Images.xcassets */; };
+		C43880C31B8CA57600F4FEBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C43880C11B8CA57600F4FEBF /* LaunchScreen.xib */; };
+		C43880CF1B8CA57600F4FEBF /* SwipeWebBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C43880CE1B8CA57600F4FEBF /* SwipeWebBrowserTests.m */; };
+		C43880DE1B8CA96000F4FEBF /* YFSwipeWebBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = C43880DD1B8CA96000F4FEBF /* YFSwipeWebBrowser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C43880C91B8CA57600F4FEBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C43880A71B8CA57500F4FEBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C43880AE1B8CA57600F4FEBF;
+			remoteInfo = SwipeWebBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C43880AF1B8CA57600F4FEBF /* SwipeWebBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeWebBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43880B31B8CA57600F4FEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C43880B41B8CA57600F4FEBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C43880B61B8CA57600F4FEBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C43880B71B8CA57600F4FEBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C43880B91B8CA57600F4FEBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C43880BA1B8CA57600F4FEBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C43880BD1B8CA57600F4FEBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C43880BF1B8CA57600F4FEBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C43880C21B8CA57600F4FEBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C43880C81B8CA57600F4FEBF /* SwipeWebBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeWebBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43880CD1B8CA57600F4FEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C43880CE1B8CA57600F4FEBF /* SwipeWebBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeWebBrowserTests.m; sourceTree = "<group>"; };
+		C43880DC1B8CA96000F4FEBF /* YFSwipeWebBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFSwipeWebBrowser.h; sourceTree = "<group>"; };
+		C43880DD1B8CA96000F4FEBF /* YFSwipeWebBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFSwipeWebBrowser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C43880AC1B8CA57600F4FEBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43880C51B8CA57600F4FEBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C43880A61B8CA57500F4FEBF = {
+			isa = PBXGroup;
+			children = (
+				C43880B11B8CA57600F4FEBF /* SwipeWebBrowser */,
+				C43880CB1B8CA57600F4FEBF /* SwipeWebBrowserTests */,
+				C43880B01B8CA57600F4FEBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C43880B01B8CA57600F4FEBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C43880AF1B8CA57600F4FEBF /* SwipeWebBrowser.app */,
+				C43880C81B8CA57600F4FEBF /* SwipeWebBrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C43880B11B8CA57600F4FEBF /* SwipeWebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				C43880D81B8CA58900F4FEBF /* Browser */,
+				C43880B61B8CA57600F4FEBF /* AppDelegate.h */,
+				C43880B71B8CA57600F4FEBF /* AppDelegate.m */,
+				C43880B91B8CA57600F4FEBF /* ViewController.h */,
+				C43880BA1B8CA57600F4FEBF /* ViewController.m */,
+				C43880BC1B8CA57600F4FEBF /* Main.storyboard */,
+				C43880BF1B8CA57600F4FEBF /* Images.xcassets */,
+				C43880C11B8CA57600F4FEBF /* LaunchScreen.xib */,
+				C43880B21B8CA57600F4FEBF /* Supporting Files */,
+			);
+			path = SwipeWebBrowser;
+			sourceTree = "<group>";
+		};
+		C43880B21B8CA57600F4FEBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C43880B31B8CA57600F4FEBF /* Info.plist */,
+				C43880B41B8CA57600F4FEBF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C43880CB1B8CA57600F4FEBF /* SwipeWebBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				C43880CE1B8CA57600F4FEBF /* SwipeWebBrowserTests.m */,
+				C43880CC1B8CA57600F4FEBF /* Supporting Files */,
+			);
+			path = SwipeWebBrowserTests;
+			sourceTree = "<group>";
+		};
+		C43880CC1B8CA57600F4FEBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C43880CD1B8CA57600F4FEBF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C43880D81B8CA58900F4FEBF /* Browser */ = {
+			isa = PBXGroup;
+			children = (
+				C43880DC1B8CA96000F4FEBF /* YFSwipeWebBrowser.h */,
+				C43880DD1B8CA96000F4FEBF /* YFSwipeWebBrowser.m */,
+			);
+			name = Browser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C43880AE1B8CA57600F4FEBF /* SwipeWebBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43880D21B8CA57600F4FEBF /* Build configuration list for PBXNativeTarget "SwipeWebBrowser" */;
+			buildPhases = (
+				C43880AB1B8CA57600F4FEBF /* Sources */,
+				C43880AC1B8CA57600F4FEBF /* Frameworks */,
+				C43880AD1B8CA57600F4FEBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeWebBrowser;
+			productName = SwipeWebBrowser;
+			productReference = C43880AF1B8CA57600F4FEBF /* SwipeWebBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C43880C71B8CA57600F4FEBF /* SwipeWebBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43880D51B8CA57600F4FEBF /* Build configuration list for PBXNativeTarget "SwipeWebBrowserTests" */;
+			buildPhases = (
+				C43880C41B8CA57600F4FEBF /* Sources */,
+				C43880C51B8CA57600F4FEBF /* Frameworks */,
+				C43880C61B8CA57600F4FEBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C43880CA1B8CA57600F4FEBF /* PBXTargetDependency */,
+			);
+			name = SwipeWebBrowserTests;
+			productName = SwipeWebBrowserTests;
+			productReference = C43880C81B8CA57600F4FEBF /* SwipeWebBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C43880A71B8CA57500F4FEBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = hyf;
+				TargetAttributes = {
+					C43880AE1B8CA57600F4FEBF = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C43880C71B8CA57600F4FEBF = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C43880AE1B8CA57600F4FEBF;
+					};
+				};
+			};
+			buildConfigurationList = C43880AA1B8CA57500F4FEBF /* Build configuration list for PBXProject "SwipeWebBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C43880A61B8CA57500F4FEBF;
+			productRefGroup = C43880B01B8CA57600F4FEBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C43880AE1B8CA57600F4FEBF /* SwipeWebBrowser */,
+				C43880C71B8CA57600F4FEBF /* SwipeWebBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C43880AD1B8CA57600F4FEBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43880BE1B8CA57600F4FEBF /* Main.storyboard in Resources */,
+				C43880C31B8CA57600F4FEBF /* LaunchScreen.xib in Resources */,
+				C43880C01B8CA57600F4FEBF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43880C61B8CA57600F4FEBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C43880AB1B8CA57600F4FEBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43880BB1B8CA57600F4FEBF /* ViewController.m in Sources */,
+				C43880B81B8CA57600F4FEBF /* AppDelegate.m in Sources */,
+				C43880B51B8CA57600F4FEBF /* main.m in Sources */,
+				C43880DE1B8CA96000F4FEBF /* YFSwipeWebBrowser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43880C41B8CA57600F4FEBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43880CF1B8CA57600F4FEBF /* SwipeWebBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C43880CA1B8CA57600F4FEBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C43880AE1B8CA57600F4FEBF /* SwipeWebBrowser */;
+			targetProxy = C43880C91B8CA57600F4FEBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C43880BC1B8CA57600F4FEBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C43880BD1B8CA57600F4FEBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C43880C11B8CA57600F4FEBF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C43880C21B8CA57600F4FEBF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C43880D01B8CA57600F4FEBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C43880D11B8CA57600F4FEBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C43880D31B8CA57600F4FEBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwipeWebBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C43880D41B8CA57600F4FEBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwipeWebBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C43880D61B8CA57600F4FEBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwipeWebBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeWebBrowser.app/SwipeWebBrowser";
+			};
+			name = Debug;
+		};
+		C43880D71B8CA57600F4FEBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwipeWebBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeWebBrowser.app/SwipeWebBrowser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C43880AA1B8CA57500F4FEBF /* Build configuration list for PBXProject "SwipeWebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43880D01B8CA57600F4FEBF /* Debug */,
+				C43880D11B8CA57600F4FEBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43880D21B8CA57600F4FEBF /* Build configuration list for PBXNativeTarget "SwipeWebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43880D31B8CA57600F4FEBF /* Debug */,
+				C43880D41B8CA57600F4FEBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C43880D51B8CA57600F4FEBF /* Build configuration list for PBXNativeTarget "SwipeWebBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43880D61B8CA57600F4FEBF /* Debug */,
+				C43880D71B8CA57600F4FEBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C43880A71B8CA57500F4FEBF /* Project object */;
+}
